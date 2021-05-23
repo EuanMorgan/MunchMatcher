@@ -19,6 +19,7 @@ const ScreenContainer = (props) => {
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             keyboardShouldPersistTaps="handled"
+            scrollEnabled={false}
           >
             {children}
           </ScrollView>
